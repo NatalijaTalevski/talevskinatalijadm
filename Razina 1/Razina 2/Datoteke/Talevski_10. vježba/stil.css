@@ -1,0 +1,39 @@
+@charset "utf-8";
+/* CSS Document */
+p{
+	color: antiquewhite;
+	font-family: Constantia, "Lucida Bright", "DejaVu Serif", Georgia, "serif";
+	font-size: 16px;
+	line-height: 18px;
+	width: 600px;
+	background-color: teal;
+	padding: 20px;
+}
+h2{
+	font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", "serif";
+	color: aliceblue;
+	
+}
+h1{
+	font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif";
+}
+span{color: black;}
+.pozadina{
+	background-image: url("datoteke/pozadine/pozadina 1.jpg")
+}
+.drugapozadina{
+		background-image: url("datoteke/pozadine/pozadina 2.jpg")
+}
+a:link{
+	color: black;
+	background-color: aliceblue;
+	padding: 5px;
+	line-height: 40px;
+	border: lpx solid #000000
+}
+a:hover{
+	background-color: aliceblue;
+}
+img{
+	height: 200px
+}

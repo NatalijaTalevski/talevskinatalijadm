@@ -1,0 +1,467 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<h3><a href="../Uvodna stranica.html">Povratak na pocetnu stranicu</a></h3>
+	<title>Predavanja i osvrti</title>
+	<link rel="stylesheet" href="stil 2.css"/>
+</head>
+	
+<body class="drugapozadina">
+	<nav>
+	<ul>
+			<h2><a href="#Važnost informacijsko komunikacijskih tehnologija u metodici nastave na grafičkom fakultetu">Važnost informacijsko komunikacijskih tehnologija u metodici nastave na grafičkom fakultetu</a></h2>	
+			<h2><a href="#Knjiga: Postscript">Knjiga: Postscript</a></h2>
+			<h2><a href="#Dimenzija piksela, dimenzija slike i resempliranje">Dimenzija piksela, dimenzija slike i resempliranje</a></h2>
+			<h2><a href="#Kodiranje sivoće piksela">Kodiranje sivoće piksela</a></h2>
+			<h2><a href="#Kapacitet i histogram slike">Kapacitet i histogram slike</a></h2>
+			<h2><a href="#Logički operatori slika">Logički operatori slika</a></h2>
+			<h2><a href="#Digitalni video">Digitalni video</a></h2>
+			<h2><a href="#Boja i zvuk u video kompresiji">Boja i zvuk u video kompresiji</a></h2>
+			<h2><a href="#Logička organizacija web sjedišta">Logička organizacija web sjedišta</a></h2>
+			
+			
+			<p id="Važnost informacijsko komunikacijskih tehnologija u metodici nastave na grafičkom fakultetu"></p>
+		
+			<li><a href="https://www.youtube.com/watch?v=54T4aNqUvm0">Link na predavanje</a></li>
+			<li><a href="Datoteke/PDF dokumenti/osvrti/Važnost IKT u metodici nastave na grafičkom fakultetu.pdf">Moj osvrt na predavanje</a></li>
+			<p>Fontographer i Fontlab su jedni od glavnih softwarea s kojima simuliramo izradu
+			jednoslovnog znaka, zareza, razmaka između riječi itd. Font je lijepa uređena nakupina
+kodnih pozicija, a na svakoj kodnoj poziciji postoji neka slika (eng. glyph). Stavimo li pogled u
+Fontographeru na decimalni oblik možemo vidjeti klasičnu ASCII tablicu. Primjer ASCII tj.
+američkog standarda nam je verzal slova A koji je na kodnom mjestu 65. ASCII standard
+datira još iz vremena matičnih printera koji su bili unaprijed kodirani i podešeni da svaka
+iglica formira određeni znak. Otvorimo li koordinatni sustav jednog kodnog mjesta, u ovom
+slučaju kodno mjesto verzala slova A, vidjet ćemo beskonačne pravce koji ograđuju
+polupovršine koji u presjeku stvaraju digitalni četverac. U prošlosti se četverac mogao nositi
+u rukama izliven u olovu. Digitalni četverac definira se kao kvadratni prostor u kojem je
+definirano slovo. Na primjeru slova Č može se shvatiti važnost beskonačnosti tih pravaca jer
+nam otvaraju mnoge mogućnosti u dizajniranju kvačice tj. možemo na bilo kojoj udaljenosti
+od slova postaviti istu. Usporedimo li digitalni četverac slova A i slova V primjećuje se razlika
+u digitalnom četvercu jer su različitim kodnim pozicijama unutar fonta. Zanima nas kako će
+oni izgledati jedno pored drugoga kada su na istoj pisnoj liniji. Programi koji slažu slovne
+znakove iz fonta na zamišljenu pisnu liniju su programi za obradu teksta (Word, Indesign i
+Photoshop). Kako bismo uštedjeli vrijeme za pregled slova na istoj pisnoj liniji koristimo
+opciju metričkog pregleda unutar programa Fontgrapher. Standardni je problem da se ne
+može univerzalnom desnom linijom narediti udaljenost pojedinih parovi slova kako bi oni bili
+estetski ugodni oku zato postoje iznimke; parovi podrezivanja (eng. kerning pairs). Kerning se
+odnosi na prilagodbu razmaka između dva specifična znaka - najčešće podrazumijeva
+smanjenje prostora, ali može značiti i dodavanje. U fontu ne postoji fizička mjerna jedinica
+već relativna. Tek će poslije software za slaganje teksta skalirati koordinatni sustav slova
+odnosno digitalni četverac na fizičku dimenziju kada se odredi broj točaka tj. veličina slova.
+Profesor zatim otvara software napisan u C++ programu koji ima jednostavnu korisničku
+masku s tipičnim grafičkim parametrima kao što su DPI, širina, visina, prvo i drugo slovo i
+gustoća. Software otvara sliku u Photoshopu jer generira tif zapis. Program prikazuje i
+koordinatni sustav kako bi studenti znali kako PostScript koordinatni sustav izgleda i kako se
+slike unutar istog pozicioniraju. PostScript (skraćeno: PS) je programski jezik tvrtke Adobe
+Systems, namijenjen grafici, primarno stolnom izdavaštvu. Njegova glavna namjena je
+vektorski opis stranice. Jezik je zasnovan na tzv. stacku. Koristi se primarno za upravljanje
+tiskarskim strojevima (printerima) i unutar dokumenata koji koriste PDF format zapisa.
+UltraEdit je komercijalni uređivač teksta za Microsoft Windows, Linux i OS X koji je 1994.
+godine stvorio osnivač IDM Computer Solutions Inc., Ian D. Mead. Uređivač sadrži alate za
+programere, uključujući makronaredbe, konfigurabilno isticanje sintakse, presavijanje koda,
+pretvorbe vrsta datoteka, upravljanje projektima, regularni izrazi za pretraživanje i zamjenu,
+način uređivanja stupaca, daljinsko uređivanje datoteka putem FTP-a, sučelja za API-je ili
+naredbeni retci po izboru i još mnogo toga. Datoteke se mogu pregledavati i uređivati na
+karticama, a također podržava način uređivanja Unicode i hex. U UltraEditu možemo
+napisati ne samo PostScript naredbe već i komentare koje će PostScript interpreter
+preskočiti, no C++ će te komentare pretvoriti u grafički interface za korisnika i stvorit će
+parametre koji se dinamički mogu mijenjati. To je velika prednost jer ne moramo prikaz
+printati kako bismo vidjeli konačan proizvod. Bezierove krivulje su parametarske krivulje
+trećeg stupnja iz skupine B- spline krivulja i iz skupine predvidljivih krivulja (eng. predictable
+curves). Predvidljive krivulje se tako nazivaju jer se odmah s položajem kontrolnih točaka,
+koje su u domeni rada te krivulje, radi predikcija za čovjeka gdje bi tijelo te krivulje moralo
+ići. Bezierova krivulja općenito slijedi oblik definirajućeg poligona. Smjer tangentnog vektora
+na krajnjim točkama jednak je smjeru vektora određenog prvim i posljednjim segmentima.
+Svojstvo konveksnog trupa za Bezierovu krivulju osigurava da polinom glatko slijedi
+kontrolne točke. Standard za sve vektorske grafike u svim alatima je da se pomoćne ili
+tangentne točke Bezierove krivulje označuju s plusem. Bezier se sastoji od 4 točke te postoji
+više načina spajanja između dvije točke; curve point, corner point i tangent point. U slučaju
+da pogriješimo u dizajniranju slova možemo sve točke vratiti na jedno mjesto tako što ćemo
+lijevim klikom miša pritisnuti na točku (na kojoj smo pogriješili) i odabrati naredbu on point.
+Za zadatak se studentima obično zadaje da u softwareu Ghostscript naprave jednostavan
+automobil. Ghostscript je tumač za jezik PostScript i PDF datoteke. Dostupan je pod
+licencom GNU GPL Affero ili licencom Artifex Software, Inc. za komercijalnu upotrebu.
+Ghostscript se sastoji od sloja interpretera PostScripta i grafičke biblioteke. Naredba curveto
+je naredba Bezierove krivulje i sastoji se od 4 točke te je svaka točka u dvije dimenzije
+(brojevi za X i Y koordinatu). Naredba curveto je kodirana mikro kodom tako da prvu točku
+uzima kao momentalno tekuću radnu točku PostScripta koju morate stvorit prije naredbe
+curveto. Prije naredbe curveto zadajemo naredbu moveto koja stvara točku i ona postaje
+prva točka curveto naredbe. Scalable Vector Graphics (SVG) je XML jezik za prikazivanje
+dvodimenzionalne vektorske grafike, bilo nepomične ili animirane. To je otvoreni standard
+stvoren od strane W3C-a, koji je odgovoran, isto tako, za poznate standarde kao HTML i CSS.
+SVG datoteka je obična tekstualna datoteka, koja se može uređivati u bilo kojem uređivaču
+teksta. Svojstvo vektorske grafike je da nije vezana za rezoluciju (vezana je samo za moment
+ispisa kada nešto prikazujemo), dok je u piksel grafici zadana rezolucija. U kolornom sustavu
+treba promijeniti svaki kanal kolornog sustava da bi dobili ono što želimo (hue, saturation,
+brightness). Boje rade u određenim domenama. Hue je spektar napravljen u kružnici (0 – 360
+boje duginog spektra raspoređene po kružnici) i stavljen u parametar od 0 do 1). Početak je
+crvena boja (red = 0 = 360), na 120 stupnjeva je zelena (green = 120), a na 240 stupnjeva
+plava boja (blue = 240). Jedinica se piše bez oznake. Saturation predstavlja zasićenje boje,
+predstavlja se postotkom, pri čemu je 100 % zasićena boja. (Na slici desno zasićenje 0 % je u
+centru, 100 % je na kružnici. Na primjer, crvena je zasićena a ružičasta nezasićena boja.)
+Lightness opisuje intenzitet svjetlosti reflektirane od površine. Također se iskazuje u
+postotcima. HSB (Hue Saturation Brightness) color system- puno se upotrebljava za umjetno
+koloriranje npr, stari crno-bijeli filmovi. Rastriranje nije jedan, strogo definiran
+fotomehanički proces nego opisuje dva procesa. U prvom se kontinuirani tonovi pretvaraju u
+seriju točaka. U drugom se pomoću raznih metoda mehaničkog otiskivanja otiskuju slike
+koje simuliraju kontinuirani ton. Sposobnost da se od jedne boje može napraviti n-nijansi
+odnosno beskonačan broj nijansi. Nijansa ovisi o tome gdje je rasterski element bio
+postavljen, tj, koliko j bio udaljeniji, približeniji ili čak u istoj ravnini - amplitudno modeliraro
+rastriranje. Digitalna boja se sastoji od boje na ekranu (RGB- red, green, blue) i boje na
+tiskarskoj tehnologiji (CMYK- cyan, magenta,yellow, key). Reprodukcija boje-u reprodukciji
+boja posebna priprema se izvršava za pokrivne i transportne boje, u digitalnom dijelu
+postoje standardi (RGB kolorni sustav). Word poznaje samo RGB sustav. PDF(Portable
+Document Format)- format zapisa dokumenta. Koristi se za čuvanje dvodimenzionalnih
+dokumenata kako njihov prikaz ne bi ovisio o uređaju i rezoluciji. PDF prepoznaje sve kolorne
+sustave i poznaje pojam stranice. PDF je postao standard čitanja. Podržava sve kolosustave i
+poznaje pojam stranice. Razlikuje se od HTML-a (HyperText Markup Language) što znači
+prezentacijski jezik za izradu web stranica, koji ne prepoznaje pojam stranica i poznaje samo
+RGB sustav. U PDF- u postoje naredbe (xsl.)- jezik za kontrolu (margine, proredi, brojači
+stranica, itd.). PDF je postao standard ne samo za tisak nego i za čitanje. Simple page master
+gdje imamo visinu, širinu i marginu stranice. Destiler iz PostScripta stvara pdf. Iz PostScripta
+destiliramo PDF, a onda s naredbama kontroliramo stranice npr. parne neparne s lijeve i
+desne strane–page eaven. U PDF možemo s ovim stvarati složenije i naprednije pdf fileove.</p>
+		
+		
+			
+		
+			<p id="Bezierova krivulja"><h2>Bezierova krivulja</h2></p>
+			
+			<li><a href="https://youtu.be/4vIuWEOsLyA">Link na predavanje</a></li>
+			<li><a href="Datoteke/PDF dokumenti/osvrti/Bezierova krivulja.pdf">Moj osvrt na predavanje</a></li>
+			<p>Bezierove krivulje su parametarske krivulje trećeg stupnja iz skupine B- spline krivulja i iz skupine predvidljivih krivulja (eng. predictable curves). Bezierova krivulja je glavna krivulja današnje vektorske grafike s kojom smo se susretali u programima Fontgrapher, Fontlab i Ilustrator. Prednost Bezierove krivulje su četiri točke na temelju kojih se može unaprijed predvidjeti rasprostiranje te krivulje. Standard za sve vektorske grafike u svim alatima je da se pomoćne ili tangentne točke Bezierove krivulje označuju s plusem. Bezierova krivulja općenito slijedi oblik definirajućeg poligona. Poligon označava jedan zatvoreni prostor unutar kojeg se crta krivulja. Zakonitost krivulje je da će se tijelo krivulje uvijek prostirati unutar konveksnog poligona omeđenog s četiri točke. Na način da će dužina P1 i P2 činiti tangentu na točku P1 krivulje, a dužina P3 i P4 čini tangentu u točki P4 na krivulju. Krivulja će izgledati kao sinusoida.Napravimo li istu konstalaciju točaka s preindeksiranim točkama, poligon će izgledati kao točka infleksije.Bezierova krivulja je parametarska krivulja trećeg stupnja. To svojstvo omogućuje lakoću programiranja.
+			Matematička definicija krivulje u jednoj dimenziji:
+			𝐶(𝑡)=[𝑡3 𝑡2 𝑡 1]×𝐵× [𝑃1𝑃2𝑃3𝑃4] , 𝑡∈〈0,1〉</p>
+			
+			<p id="Knjiga: Postscript"><h2>Knjiga: Postscript</h2>	</p>
+			
+			<li><a href="PDF dokumenti/3,5.ZiljakPapPostcript.pdf">Link na knjigu</a></li>	
+			<li><a href="Datoteke/PDF dokumenti/osvrti/Što je PostScript.pdf">Moj osvrt na knjigu</a></li>
+			<p><b>Što je PostScript</b>?<br>
+PostScript je programski jezik (poput Basic, Pascal, C) koji je namijenjen samo
+području oblikovanja grafike na stranicama za tisak. PostScript jezik za opis
+stranice brzo i jednostavno prikazuje grafiku, a tek u drugom koraku njegovu
+apstraktnu strukturu. Ne zahtjeva prethodno znanje programiranja računala, ali
+potrebno je imati sklonosti prema grafičkoj umjetnosti i tipografiji.<br>
+<b>Programiranje grafike</b><br>
+PostScript ima svoj specifični grafički rječnik koji je nastao razvojem računarske
+tipografije, fotosloga, i računarske reprofotografije. Komandni jezik se koristi
+kako bi se odredio grafički oblik slova ili slike. Istim se određuje staza/put te
+operator/komande i operandi/parametri. Operatori su pisani engleskim
+jezikom; zasebnim riječima (image, show, fill); kraticama (arc, def, div), no
+najčešće su kompaktno sastavljeni od nekoliko riječi ili kratica kao jedna
+tipografska riječ (setlinewidth, rlineto). Parametri su numeričke veličine koje
+određuju način djelovanje komande; početak, završetak, trajanje, način
+prikaza, način djelovanja komande. Između parametara i komandi koristi se
+razmak između riječi, tabulator ili kôd za novi redak kao razdjelna oznaka u
+pisanju. U istom retku moguće je napisati niz kontinuiranih komandi. Početak
+komentara označava se znakom postotka - % te on olakšava snalaženje u
+programu. Sam komentar nema utjecaja na PostScript komande. Koordinatni
+sustav PostScripta je zasnovan u mjernim veličinama "točka" sa X/Y
+kordinatama, a početak je u donjem lijevom dijelu stranice. Standardna veličina
+točke određena je inčem koji je podijeljen u 6 dijelova nazvanih pica (pajk -
+engleski cicero), a pica u 12 točaka. Tako inč ima 72 točke, odnosno jedna točka
+je 0.353 mm. Tekst u tekst editoru može se zapisati u čistoj ASCII formi. Rezultat
+tako pisanog PostScript programa može se poslati prema PostScript printeru sa
+programom za download sa bilo kojeg operativnog sustavu, ili se može vidjeti
+na sustavima koji podržavaju Display PostScript. Komanda moveto postavlja
+početak novog puta grafike u točki koja je određena parametrima pisanim
+ispred komande. Komandom lineto povlači se dužina od točke koja je
+posljednja određena do točke koja je definirana. Liniji je potrebno pridružiti
+debljinu jer je ona bezdimenzionalna. Komanda stroke omogućuje prikazivanje
+linija, no sama komanda nema parametara. Ako prethodno nije ništa određeno
+tada će se iscrtati crna linija debljine jedne točke. Nakon što se odredi polazna
+točka, pomicanje do sljedeće točke za neku udaljenost horizontalno ili
+vertikalno postiže se komandom rlineto. Višestruko korištenje komande rlineto
+otežava precizno računanje položaja početne točke. Komanda closepath
+također nema parametre te se njome zatvaraju linije lika. Željena debljina linije
+određuje se komandom setlinewidth. Komanda fill omogućuje popunjavanje i
+bojanje likova. Komandom setgray bojaju se linije i zatvorene površine te se
+njome postavlja vrijednost svjetline sivog tona. Komandom setlinecap može se
+oblikovati početni i završni oblik liniješto je važno kod debljih linija. Način
+spajanja linija rješava se komandom setlinejoin. Miterlimit je maksimalni
+dozvoljeni omjer između dužine dijagonalne linije i debljine linije u šiljastom
+spoju što ovisi o kutu spajanja. Izmjenično iscrtavanje crnih i bijelih crtica
+postiže se komandom setdash. Krug, kružnica, kružni isječci i njihovi dijelovi
+programiraju se komandama arc, arcn i arcto. Parametri tih komandi određuju
+središte, radijus, kut početka i završetka kružnog luka. Bezierova krivulja je
+polinom trećeg stupnja. Te je definirana je s četiri točke: prve, zadnje te dvije
+tangentne točke koje određuju smjer napredovanja linije. Komanda curveto
+opisuje stazu Bezierove krivulje te ima samo tri para x/y točaka. Komande
+repeat i for korisne su za precizno ponavljanje već iscrtanih likova ili oblika.
+Komanda gsave služi za spremanje tekućeg grafičkog stanja, a komanda
+grestore obnavlja zadnje spremljeno grafičko stanje. Komanda gsave sprema
+sve parametre i putanju na vrh stacka, a grestore ih skida sa stacka i čini ih
+opet aktualnim. Komanda rotate zakreće koordinatni sistem po pozitivno
+zadanom kutu u stupnjevima u smjeru suprotnom od sata. Komanda scale služi
+za proporcionalno ili neproporcionalno proširivanje, sužavanje, smanjivanje,
+povećavanje i zrcaljenje. PostScript jezik zasnovan je na stack procedurama te
+postoje četiri vrste stacka: stack operanada, stack riječnika, stack grafičkih
+stanja i izvršni stack. Komanda index kopira broj udaljen od vrha stacka za
+toliko, kolika je vrijednost u prvom stacku. Komanda setcmykcolor definira boju
+sa četiri parametra: cijan(c), magenta(m), žuta(y), crna(k). Parametri se zadaju u
+intervalu od 0.0. do 1.0. Kada parametar iznosi 1.0 tada je pokrivenost boje
+100%. Komanda setrgbcolor definira boju sa tri parametra: crvena(r), zelena(g),
+plava(b). Oni se zadaju u intervalu od 0.0 do 1.0. Iznos 1.0 predstavlja
+pokrivenost od 100% te boje. Komanda sethsbcolor definira boju sa
+parametrom tona (hue), zasićenosti (saturation) i svjetline (brightness).<br>
+<b>Programiranje tipografije</b><br>
+Slovni znakovi oblikuju se unutar "četverca". Četverac je pravokutnik unutar
+kojeg se postavljaju slika slovnog znaka i njegova geometrija Dno četverca leži
+na pismovnoj liniji, donji lijevi ugao četverca je nulta točka slovnog znaka.
+Latinićno pismo je četverolinijsko: pismovna linija, krov verzala, krov kurenta i
+descender. Slova u računarskoj grafici, još od fotosloga treće generacije,
+određena su putanjom ovojnice na različite načine: pravci, dijelovi kružnice.
+PostScript koristi Bezierovu stazu. Slovni znak najčešće se prikazuje kao
+popunjen prostor omeđen unutarnjom i vanjskom ovojnicom. Tekst može u u
+PostScript program preko ulazne tekstualne datoteke (file) koja se prethodno
+napunila sa nekim tekst editorom, pisanjem rukom, programskim zapisivanjem
+ili generiranjem podataka.<br>
+<b>Programiranje piksel grafike</b><br>
+Za svaki pojedinačni piksel karakteristično je da na cijeloj svojoj povrπini ima
+jednoličnu sivoću. Vrijednost sivoće piksela data je jednim brojem u jednom
+bajtu a to znači da je raspon od bijelog do crnog razdjeljen nekontinuirano na
+265 stepenica sivog tona. Ljudsko oko razlikuje oko 50 nijansi sive skale pa
+razdiobu od 256 doživljavamo kao kontinuirani ton. Broj razina sive skale je prva
+karakteristika digitalne slike. PostScript ima mogućnost interpretirati sliku sa 2,
+4, 16, 256 i 4096 stepenica sivih tonova. Parametrom G (1, 2, 4, 8, 12) zadanim
+neposredno prije matrice transformacije piksla, određujemo broj bitova, a time
+i stepenice sive skale. Prvi redak n uzorka dat je heksadecimalno odnosno
+binarno. Slika se određuje nizom brojaka koje pravilno grade ukupnu povrπinu
+slike od gornjeg lijevog ugla, horizontalno desno tvoreći retke od vrha slike do
+dna, završavajući s donjim desnim uglom kao zadnjim pikselom. Prikaz slike na
+ekranu ili pisaču traži podatke o broju piksla u retku, broju stupaca, veličini
+otisnutog piksla i položaju slike na stranici. Pikseli su definirani kao
+paralelogrami pa svaki pojedini piksel može poprimiti zakrenute deformirane
+oblike. U standardnim programima za piksel grafiku, kao što je npr. Photoshop,
+piksl na ekranu je uvijek kvadratične dimenzije. Veličina piksela se zadaje
+implicitno preko pojma rezolucije, odnosno brojem piksla po nekoj dužinskoj
+mjernoj jedinici npr. po inchu ili centimetru. Naredba image koristi 5
+parametara koji moraju biti postavljeni na stacku: - broj piksela u retku čime je
+određen broj stupaca S; - broj piksela u stupcu (broj redaka) R; - broj bitova po
+pikslu G Čime je određen broj stepenica sive skale (2G); - transformacijska
+matrica slike; - string vrijednosti sivih razina slike.
+Natalija Talevski</p>
+			
+			<p id="Dimenzija piksela, dimenzija slike i resempliranje"><h2>Dimenzija piksela, dimenzija slike i resempliranje</h2>	</p>
+			
+			<li><a href="https://youtu.be/6wxKSOxv_0E">Link na predavanje</a></li>	
+			<li><a href="Datoteke/PDF dokumenti/osvrti/Talevski_osvrt na predavanje_Dimenzija piksela, dimenzija slike i resempliranje.pdf">Moj osvrt na predavanje</a></li>
+			<p>U ovome predavanju pobliže se opisuje grafika kojoj je osnovni slikovni element piksel. Piksel je skraćenica od picture element. Standardni slikovni oblik piksela je oblik kvadrata, no taj slikovni element ne mora uvijek imati kvadratičnu formu. Svojstvo kvadrata su sve jednake stranice. Prilikom transformacije slike moguća je i transformacija kvadrata u različite trapezoidne oblike i romb oblike. Razlika između piksel grafike i rasterske grafike je ta što piksel grafika koristi kvadratić kao osnovni element, a rasterska grafika amplitudni raster u obliku sinusoide. Kako se određuje veličina piksela? Piksele možemo stvoriti u konstruktoru slike poput Photoshopa. Da bismo razumjeli u Photoshopu otvaramo novi dokument dimenzija 4x4 piksela i zatim primjenjujemo gradaciju.Ista slika može se stvoriti na drugačiji način kao npr. digitalizacijom s uređajima kao što je skener, digitalni fotoaparat itd. Općenito nema potrebe da pikseli budu jako mali jer onda ih mora biti jako puno jer se sve svodi na udaljenost s koje se promatra stvorena slika/scena. Pikseli se stvaraju umjetno; može se pojaviti digitalnom fotografijom ili skaniranjem. Dimenzije piksela se ne zadaju direktnim načinom već indirektnim s pojmom rezolucija. Rezolucija slike je gustoća uzrokovanog elementa- piksel tj. rezolucija je gustoća piksela po nekoj jediničnoj mjeri. Najčešće se koristi ppi, skraćeno od pixel per inch.Ista slika može se stvoriti na drugačiji način kao npr. digitalizacijom s uređajima kao što je skener, digitalni fotoaparat itd. Općenito nema potrebe da pikseli budu jako mali jer onda ih mora biti jako puno jer se sve svodi na udaljenost s koje se promatra stvorena slika/scena. Pikseli se stvaraju umjetno; može se pojaviti digitalnom fotografijom ili skaniranjem. Dimenzije piksela se ne zadaju direktnim načinom već indirektnim s pojmom rezolucija. Rezolucija slike je gustoća uzrokovanog elementa- piksel tj. rezolucija je gustoća piksela po nekoj jediničnoj mjeri. Najčešće se koristi ppi, skraćeno od pixel per inch.Rezolucijom nismo promijenili broj piksela već dimenziju. Na primjeru gore zadali smo širinu i visinu 2x2 piksela, a rezolucija je 2 ppi. Rezoluciju možemo mijenjati, dok je širina i visina fiksna tj. ostat će onakva kakvu smo je prvobitno zadali. Također broj bytova će ostat isti.Međutim, ako radimo s Resample Image promjenom rezolucije mijenamo broj bytova te širinu i visinu slike. Mijenjamo i gustoću piksela na zadanu mjernu jedinicu.Prije nego što počnemo s ikakvim promjenama potrebno je spremiti original u što većoj rezoluciji. Kasnije se procesom resempliranja može smanjiti slika ukoliko nam treba za nešto drugo primjerice za web ili neki drugi uređaj. Broj piksela se mijenja ovisno o upotrebi. Poznato je da slike na webu imaju rezoluciju od 80 do 100 ppi jer se pretpostavlja da se slike neće uvećavati. Dimenzija i boja utječu na oko promatrača zato će slike s puno boja najčešće imati manju rezoluciju. Dimenzije slike možemo zadavati u inchima, centimetrima, pikselima. Rezoluciju možemo zadavati u pixel/inch i pixel/cm. Dimenzija slike nije uvjetovana veličinom piksela nego brojem piksela koji proizlaze iz rezolucije.Kada je Constrain Proportions isključen onda samo određena dimenzija doživljava promjenu.Resempliranje znači povećati ili smanjiti broj piksela. U Photoshopu to konkretno znači da ako povećamo broj piksela program će umjetno nadoknaditi piksele, a ako pak smanjimo Photoshop će posebnim algoritmima izbacit pojedine piksele.</p>
+			
+			<p id="Kodiranje sivoće piksela"><h2>Kodiranje sivoće piksela</h2></p>
+				
+			<li><a href="https://youtu.be/6kKFHSvk6Tk">Link na predavanje</a></li>	
+			<li><a href="Datoteke/PDF dokumenti/osvrti/Talevski_KODIRANJE SIVOĆE PIKSELA.pdf">Moj osvrt na predavanje</a></li>
+			<p>U ovome predavanju saznat ćemo o ispuni piksela tj. o površini koju zatvaraju stranice kvadrata piksela.Pitanje glasi kako se površina piksela ispunjava? Prije nego li dobijemo odgovor na to pitanje pobliže ćemo objasniti binarne sustave tj. primjenu kodiranja u binarnom sustavu. Poznato nam je kodiranje kodnih pozicija određenih znakova unutar jednog fonta te se tako kodiraju i sivoće koje trebaju ispunjavati stranicu piksela. Ako primjenimo za kodiranje sivoće piksela jedan bit koji može biti 1 ili 0. Tada su moguće 2 kombinacije s kojima možemo imati samo dvije sivoće. Standardno je da kad se kaže da neki piksel ima dvije razine sivoće da onda to bude bijeli piksel i crni piksel tj. piksel s 0% zacrnjenja i piksel s 100% zacrnjenja.Ako želimo kodirati sivoću s dva bita to znači da možemo imati 4 sive razine.Tada postoji piksel s 0%, 33%, 66% i 100% zacrnjenja. Nikako se ne može zadati piksel s decimalnim brojem zacrnjenja.Ako primjenimo kodiranje s tri bita to znači da možemo imati 23kombinacija.Ako primjenimo kodiranje s 6 bita onda ćemo dobiti 26 tj. 64 sive razine. Ako primjenimo kodiranje s 8 bita onda ćemo dobiti 28 tj. 256 sivih razina. Koliko je sivih razina potrebno da bi naše ljudsko oko bilo prevareno i da što manje vidimo gradacije sivih razina? Za demonstraciju mogućih sivih razina sa različitim brojem bita upotrijebit ćemo alat Posterize u Photoshopu. Tim alatom dobivamo broj sive razine koju možemo zadati ručno. Za prevaru ljudskog oka potrebno je sedam do osam bitova, odnosno 128 sivih razina. Prosječan čovjek može raspoznati maksimalno 150 sivih razina što je više od 7 bitova a manje od 8 bitova. Da bi se postigla veća ugoda za oko, obično se koristi osam bitova – na toliko je namješten Photoshop. Za određene scene ponekad je potrebno više sivih razina naročito kada se traži veća osjetljivost.Dolazimo do zaključka da se orginalna slika sastoji od 255 sivih razina tj. 8 bitova.Zatim u Photoshopu otvaramo sliku 2x2 piksela te ćemo digitalnom pipetom (Eyedroop Tool) odrediti postotak zacrnjenosti.100% 80% Bitno je u kojem načinu rada radimo s digitalnom pipetom tj.koji je Sample Size. U našem slučaju Sample Size podešen je na80% 50% Point Sample odnosno očitava postotak zacrnjenosti jednog piksela.Postavimo li Sample Size na 3x3 piksela postotak zacrnjenosti bit će 77%. Ako zbrojimo te razine sivoće i podijelimo ih sa četiri dobit ćemo prosječnu vrijednost koja je upravo 77%.Veličina pipete se bira ovisno o vrsti očitanja koju provodimo na nekoj slici, no u većini slučajeva se uzima najveća pipeta.</p>
+			
+			<p id="Kapacitet i histogram slike"><h2>Kapacitet i histogram slike</h2></p>
+			
+			<li><a href="https://youtu.be/hKLOFxnDFJE">Link na predavanje</a></li>	
+			<li><a href="Datoteke/PDF dokumenti/osvrti/Talevski_PREDAVANJE KAPACITET I HISTOGRAM SLIKE.pdf">Moj osvrt na predavanje</a></li>
+			<p>Predavanje započinje s objašnjenjem kapaciteta slike tj. veličine slike u memoriji. Nadovezat ćemo se na prethodno predavanje „Kodiranje sivoće piksela“. Potrošnja bitova ,koja je važna za kodiranje sivoće piksela, je ono opterećenje koje slika nosi u memoriji kada je selimo preko nekog medija npr. interneta na daljinu. To se još naziva i težina slike (image workload). Težina slike izvire iz broja bita po jednom pikselu. Što je više bitova po pikselu slika će biti teža za prijenos i za rad.<br>Izračunavanje težine slike:<br>Slika se sastoji od 4x4 piksela ukupno 16 piksela i svaki taj piksel je određene sivoće. Piksel slike je kodiran s 8 bita. 8 bitova je zapravo 1 bajt (B). Iz toga slijedi: ako slika ima 16 piksela, a svaki piksel ima jedan bajt, slika je „teška“ 16 bajta.<br>Na slikama gore možemo vidjeti gdje u Photoshop-u piše broj bitova po pikselu i kolika je veličina slike.Također, veličinu slike možemo saznati i u Image Size.Veličinu slike možemo pročitati u desnom gornjem kutu.<br>Primjer 1: 8- bit slika se sastoji od 400x600 piksela ukupno 240 000 piksela. Piksel slike je kodiran s 8 bita tj. s 1 bajtom (B). 8 bitni zapis ima 255 sivih razina- prva je nula, a posljednja 255. Iz toga slijedi: ako slika ima 240 000 piksela, a svaki piksel ima jedan bajt, slika je „teška“ 240 000 B. To je preveliki broj i onda se ide u drugu razinu u ovom slučaju kilobajte. U kilobajte se preračunava tako da se podijeli s 1024.<br>Primjer 2 (1-bit slika): sliku, za koju smo računali bajtove tj. kilobajtove, ćemo duplicirati i od nje napraviti bitmapu. Bitmapa je zapis slike gdje se troši jedan bit po pikselu za kodiranje. Mogu biti samo dvije razine 0 ili 1 odnosno crno ili bijelo.<br>Primjer 3: Prvobitnu sliku 400x600 piksela pretvorit ćemo u RGB sliku (Image Mode RGB Color). Stvorili smo tri kanala. Po kanalu se troši 8 bita što je ukupno 24 bita. Kako bismo ubrzali proces računanja 234,4 kB ćemo pomnožit s 3 jer je upravo 234,4 izračun za sliku od 8 bitova.<br>Prvobitnu sliku 400x600 piksela pretvorit ćemo u CMYK sliku (Image Mode CMYK Color). Stvorili smo četiri kanala. Po kanalu se troši 8 bita što je ukupno 32 bita. Ova slika je četiri puta veća od početne slike.</p>
+			
+			<p id="Logički operatori slika"><h2>Logički operatori slika</h2></p>
+				
+			<li><a href="https://www.youtube.com/watch?v=O78NBFfcwm8&list=PLtly_yBL4ibgusTXWijt44jQ2KqP_Us0W&index=5">Link predavanja</a></li>
+			
+			
+			<p id="Digitalni video"><h2>Digitalni video</h2></p>
+				
+			<li><a href="https://youtu.be/WXm6ihwgaVQ">Link na predavanje</a></li>	
+			<li><a href="Datoteke/PDF dokumenti/osvrti/DIGITALNI VIDEO.pdf">Moj osvrt na predavanje</a></li>
+			<p>Digitalni video definiramo kao seriju digitalnih slika koje se izmjenjuju u nekom vremenskom periodu.
+Podatci digitalnog videa se zapisuju na memorijske kartice, diskove, CD/DVD medije te se određenim
+procesima kodiraju i dekodiraju prilikom prikazivanja. Razlika između digitalnih medija i analognih je
+ta da su se analogni zapisivali na filmove ili su se transmitirali preko radiovalova.
+Analogni televizijski prijenos
+U svijetu su postojala 3 standarda analognog televizijskoj prijenosa koji su postojali prije današnjeg
+digitalnog prijenosa. Ti analogni standardi se odnose na različite načine kodiranja boje u slici, broj
+sličica koje se izmjene u sekundi i rezoluciji slike.
+1. PAL (Phase Alternating Line)- Europa, dio
+Afrike, jugoistočna Azija, Australija i južna
+Amerika
+2. SECAM (Sequential color with memory)-
+Francuska i njezine kolonije, Rusija,
+srednja Azija
+3. NTSC (National Television System
+Commitee)- sjeverna Amerika, Japan i
+Filipini
+Karakteristike standarda:
+PAL i SECAM
+• Strujna mreža: 50 Hz
+• Slika se sastoji od 625 horizontalnih linija koje su činile vertikalnu rezoluciju
+• Izmjena 25 sličica u sekundi (frame per second- fps)
+NTSC
+• Strujna mreža: 60 Hz
+• 525 horizontalnih linija
+• 30 sličica u sekundi (fps)
+Digitalne inačice ovih standarda:
+PAL DV
+• Dimenzije: 720h x 576v
+NTSC DV
+• Dimenzije 720 x 480v
+Ovakve dimenzije nazivamo SDTV (Standard Definition TV), a omjer horizontalne i vertikalne stranice
+SD formata je 4:3.
+HDTV (High Definition TV)
+Dimenzije: 1280 x 720 ili 1920 x 1080 (full HD)
+Do ovih brojeva smo došli kada smo pomnožili vertikalni format od NTSC (480v) sa 1,5, dobit ćemo rezoluciju 720v, a ako tih 720v pomnožimo sa 1,5, dobit ćemo brojku 1080v.
+HD ima omjer horizontalne i vertikalne stranice 16:9 koji još nazivamo i widescreen.
+Prije desetak godina pojavio se format koji naziva UHD (Ultra High Definition) te su to sve rezolucije koje su veće od 1920 x 1080.
+Omjer stranica slike (Aspect ratio) – omjer širine i visine video slike
+Prvi standard je baziran na 35 mm film – 4:3 ( 1.33:1 )
+Widescreen – mnogi kino formati
+• Cinerama – 2.59:1
+• Academy ratio – 1.37:1
+• Cinemascope – 2.35:1
+• Vista vision – 1.85:1
+• MGM – 2.76:1
+• Panavision – 2.20:1
+16:9 (1.78:1)
+• Geometrijska sredina između najpopularnijih omjera 1.33:1 i 2.35:1
+Izmjena broja sličica u sekundi (frame rate)
+• Označava koliko će se slika izmijeniti u jednoj sekundi.
+• Ljudsko oko zbog svoje tromosti percipira 10- 12 fps (kontinuirani pokret)
+• 24 fps – filmski standard
+• 25 fps – PAL standard
+• 29.97 (30) fps – NTSC standard
+Primjer 1: video od 5 fps – vidimo izmjenu individualnih slika, video je isprekidan, tranzicija nije glatka.
+Primjer 2: video od 10 fps – glađa tranzicija, no pokret nije realističan.
+Primjer 3: video od 29.97 fps – još glađa tranzicija i doživljavamo realističan pokret.
+Načini prikaza slika (frameova)
+Standardna definicija slike je koristila poseban način transmisije koji nije ispisivao cijelu sliku na ekranu u istom trenutku već je ispisivao red po red slike u vrlo kratkom vremensko intervalu. To se radilo kako bi se ubrzalo slanje signala kako se ne bi događao trzaj slike zbog kašnjenja signala. Takav način prikaza se nazivao isprepleten (Interlaced) – 480i. Način prikaza bi bio takav da se prvo prikaže slika s neparnim redovima, a zatim djelić sekunde nakon nje umeću se podslika s parnim redovima. Ubrzanjem prijenosa video signala Interlaced način prikaza se napušta u korist progresivnog (progressive) – 720p. Slika se prijenosi u cijelosti, ne razlama se na podslike. Svi HD formati mogu prenositi sliku ili na progresivan ili isprepleten način i danas ima tri standardna načina kako prikazujemo HD format – 720i, 1080i, 1080p.
+Veličina video materijala
+Primjer: video u boji rezolucije 640 x 480 px
+• 640 x 480 px = 307 200 px
+• RGB→24 bit (8 bit po kanalu)→ 3B (24/8= 3B)→ jedan RGB piksel
+• 3 x 307 200 = 921 600 B = 900 KB→ za jedan frame
+• 30 fps → 30 x 921 600 = 27 648 000 B = 27 000 KB = 26.5 MB→ jedna sekunda videa
+Kodiranje se radi zbog kompresije podataka. Kompresija podataka smanjuje ukupnu količinu podataka video datoteka.
+Optimizacija veličine video datoteke:
+• Rezolucija (paziti gdje će se video prikazivati, moramo prilagoditi veličinu slike gdje će se video prikaziva, time smanjujemo broj piksela, što znači manje opterećenje)
+• Broj sličica u sekundi (standard: 24, 25, 29.97 fps )
+• Jačina kompresije (ovisi o CODEC-u)
+Kompresija
+CODEC – Code/DECode
+➢ Algoritam prema kojem se sirovi podatci pakiraju i smanjuju kako bi smanjili ukupnu težinu video datoteke.
+Kodiranje slike se događa veću unutar kamere koja snima video materijal ili prilikom izvoza video materijala iz software-a za obradu video materijala.
+Dekodiranje se događa u trenutku kada video prikazujemo pomoću određene tehnologije (TV, unutar browsera itd.)
+Proces kodiranja se temelji na reduciranju podataka koji su
+• suvišni (redundantni) – ponavljaju se
+• nevažni (oko ih ne primjećuje) – ton boje
+Kompresija – vrste CODEC standarda
+• MPEG – 4 Part 2/ DivX; formati datoteka .avi
+• MPEG – 4 Part 10/ AVC (Advanced video coding) / H.264; formati datoteka: .mp4, .m4v, .mov, .mkv…
+• MPEG – H Part 2/ HEVC (High efficiency Video coding) / H.265
+• VP8 i VP9 (Video Processor) formati datoteka .webm
+• THEORA formati datoteka .ogg
+• AOMedia Video 1/ AV1 formati datoteka .mp4, .webm, .mkv
+Kompresija – Bit rate
+Bit rate je količina podataka video datoteke po jednoj sekundi videa. Koliko informacija video može poslati u jednoj sekundi u outputu. Bit rate nam govori algoritmu CODECa za kompresiju koliko smije smanjiti podataka za željenu kvalitetu slike.
+Mjerna jedinica: bit po sekundi – bps (Kbps, Mbps)
+Što je veći Bit rate to je:
+• manja kompresija
+• više podataka po sekundi
+• bolja kvaliteta slike
+• veća datoteka
+Bit rate je neovisan o rezoluciji.
+Smjernice za određivanje Bit rate-a
+• Za HD video od 720p do 10 Mbps
+• Za Full HD 1920 x 1080 15-25 Mbps
+• Za UHD 4K video 50-100Mbps
+Primjer 1: Bit rate 0.19 Mbps (H. 264 – HD 720p, 29.97 fps, 6sek, 140 KB)
+• Mali Bit rate je rezultirao time da smo izgubili puno podataka u detaljima sam slike. Lošija kvaliteta slike.
+Primjer 2: Bit rate 10 Mbps (H. 264 – HD 720p, 29.97 fps, 6sek, 7.7 MB)
+• Puno više detalja, puno bolji prijelazi između frame-ova, oštrina slike je zadovoljavajuća i puno je veća kvaliteta slike.
+Primjer 3: Bit rate 5 Mbps (H. 264 – HD 720p, 29.97 fps, 6sek, 3.8 MB)
+• Nema puno razlike između 10 Mbps i 5 Mbps.
+Zadatak
+Ekstenizja videa: .mp4
+Trajanje videa: 15 s
+Rezolucija: 1920 x 1080
+Frame rate: 30, 22
+Velič. Datoteke: 32, 7 MB
+Codec: MPEG -4
+Bit rate: 16784kbps</p>
+
+			<p id="Boja i zvuk u video kompresiji"><h2>Boja i zvuk u video kompresiji</h2></p>
+			
+			<li><a href="https://www.youtube.com/watch?v=Rs0W13-V6sc">Link na predavanje</a></li>	
+			<li><a href="Datoteke/PDF dokumenti/osvrti/Boja i zvuk u video kompresiji.pdf">Moj osvrt na predavanje</a></li>
+			<p>Prijenos podataka odnosno Bitrate nekomprimiranog videosignala je u rasponu od 270 megabita po sekundi za SDTV (Standard Definition TV), 1.5 gigabita HDTV ili 3 ili više gigabita po sekundi za High Definition TV. Takva količina podataka je prevelika za efikasnu pohranu ili transmisiju pa svi podatci moraju biti komprimirani odnosno sažeti koristeći perceptualno kodiranje da bismo smanjili količinu podataka koja se šalje.
+Perceptualno kodiranje uzima u obzir karakteristike ljudskih organa za primanje signala, a to su naše oči i uši da bi se ustanovili limiti naše percepcije i shodno tome reducirali podaci koje mi ne možemo primijetiti. Te operacije se izvode prilikom transmisije videosignala ili prilikom samog snimanja kamerama, fotoaparatima, mobilnim uređajima itd. Svi navedeni uređaji imaju mali kapacitet pohrane i moraju izvoditi neku vrtu kompresije da bi mogli spremiti podatke. Također, kod transmisije moramo voditi računa o količini podataka koju šaljemo kako bi primatelj signala mogao neometano pratiti signal bez prevelikih gubitaka. Kada govorimo o sažimanju podataka direktno prilikom snimanja onda govorimo o kodiranju izvora (Source Coding) jer sažimamo analogni signal koji dolazi na senzore uređaja za snimanje za razliku od komprimiranja podataka u postprocesiranju kako i se on prilagodio za različite medije. Razlikujemo dvije vrste kodiranja odmah na izvoru i poslije u postprocesiranju. Nakon kodiranja izvora količina podataka će biti svedena na 1 do 15 megabita ovisno o algoritmu kompresije. Jačina kompresije ovisi o video Codecu i željenoj rezoluciji slike tj. zvuka.
+Taj proces funkcionira na dva načina:
+− Reduciranje suvišnih podataka (redundantnih); ponavljaju se više puta
+− Reduciranje nevažnih podataka (irelevantnih); podatci koje ljudsko oko neće primijetiti da nedostaju
+Redundantni podaci ponavljaju se u podatkovnom prijenosu te se mogu lako i bez gubitaka izračunati nekim matematičkim algoritmima prilikom dekodiranja. Dijelovi koda se zamjenjuju kraćim kodovima koji ih matematički opisuju Huffmanovo kodiranje. Takva kompresija se naziva kompresija bez gubitaka (losless kompresija). Nevažne ili irelevantne podatke ljudsko oko ne može uopće percipirati. U slučaju videosignala to su komponente koje ljudsko oko ne registrira upravo zbog njegove anatomije, a u perceptivnom kodiranju uzimamo te podatke i brišemo ih kako bi se signal dodatno smanjio. Kompresija irelevantnih podataka naziva se kompresija s gubitcima (lossy kompresija).
+Ljudsko oko se evolucijski razvilo da može bolje razlučivati pokrete u tamnom okruženju nego razlikovati sitne nijanse boja. Za percepciju tona boja su zaduženi čunjići, a njihova osjetljivost je na crveni, zeleni i plavi dio spektra odnosno RGB. S obzirom da ljudsko oko bolje vidi odnos svjetlo-sjena nego preciznost nijanse boje u videosignalu. Preciznost boje u videosignalu može biti reducirana što posljedično znači redukciju količine podataka o boji. Također, ljudsko oko ne može vidjeti fine strukture na slici npr. vrlo tanke linije, male promjene kontrasta itd.
+Videokamera nam daje izlazne signale u red, green i blue color sustavu odnosno RGB. Ti signali se matematički pretvaraju u luminantne i krominantne signale tj. u komponente koje se odnose na svjetlinu (luminance) i njih označavamo slovom Y. Podatci koji se odnose na ton (chrominance); krominantne komponente, a njih označavamo oznakama Cb i Cr; ponegdje se naziva YUV.
+Konverzija se radi jednostavnim matematičkim operacijama: 𝑌=(0.3∗𝑅)+(0.59∗𝐺)+(0.11∗𝐵) 𝐶𝑏=0.56∗(𝐵−𝑌) 𝐶𝑟=0.71∗(𝑅−𝑌)
+Digitalni audio signal
+Ljudsko uho ima dinamički raspon od otprilike 140 dB i raspon frekvencija od 20 Hz do 20 000 Hz. Valovi koji nastaju titranjem izvora frekvencijom većom od 20 000 Hz se nazivaju ultrazvukom, a frekvencije koje su manje od 20 Hz nazivamo infrazvukom. Audio signal koji želimo transmitirati digitalnim putem mora imati karakteristike koje poštuju raspone čujnosti ljudskog uha. Dio uha koja je zaslužan za prevođenje zvučne energije u ono što mi percipiramo kao zvuk je pužnica. U njoj postoje osjetne stanice za visoke, srednje i niske frekvencije gdje auditorni živci prevode taj signal u električni impuls. Osjetljivost uha je najovisnija o frekvenciji zvuka pa se tako najveća osjetljivost uha nalazi u rasponu od 3000 Hz do 4000 Hz.
+Analogni signal se snima različitim uređajima te se putem filtera limitira njegov raspon prije nego što se on digitalizira. Taj proces se zove sempliranje ili uzorkovanje signala. Analogni zvuk koji kontinuiran pretvaramo u uzorke koji su mjerljivi te na kraju dobivamo končan broj uzoraka koji još nazivamo i diskretnim brojem uzoraka. Sampling rate ili brzina uzorkovanje se mjeri kao sample per second odnosno broj snimljenih audio uzoraka unutar jedne sekunde. To je mjera slična brzini izmjena sličica u sekundi tj. frame per second. Za audio signal najmanji broj uzoraka je 8 000 Hz. Ako koristimo manju frekvenciju zvuk će se činiti isprekidanim. Sampling rate je mjera na x osi zvučnog vala koja nam kaže koliko je finoća uzoraka u jedinici vremena.
+Sampling depth ili preciznost uzorka se mjeri s bitovima po uzorku, a jednako je tako važna kada pričamo o kvaliteti zvuka kao i Sample rate. Sampling depth određuje koliko mogućih razina amplitude može postići zvučni signal. Sampling depth je mjera na y osi finoće podjele zvuka.
+Ako govorimo o 8 - bitnom zvuku to znači da možemo postići 256 različitih amplituda odnosno jačina zvuka, a uzorak od 16 bita može postići 216 različitih amplituda zvuka. U većini slučajeva se koristi 16-bitni zvuk dok se za kvalitetniji prijenos koristi 24-bitni ili 32-bitni zvuk.
+Bit rate kod audiosignala je produkt preciznosti uzorka i brzinom uzrkovanja.
+Bit rate = Sample rate*Sample depth = uzorak/sek* bit/uzorku = bit/sek
+Najčešće korišteni sampling rate:
+− 8 kHz – telefonija
+− 44.1/48 kHz – TV/CD
+− 96/192 kHz – blue-ray
+− 300 kHz¸
+Nyquistov-Shannonov teorem tvrdi da bi se spriječio gubitak informacije kada se signal digitalno uzorkuje odnosno semplira Sample rate mora biti najmanje dvostruke veličine od najveće očekivanje frekvencije signala.</p>
+			
+			<p id="Logička organizacija web sjedišta"><h2>Logička organizacija web sjedišta</h2>	</p>
+			
+			<li><a href="https://youtu.be/H8_H7ED0cKc">Link na predavanje</a></li>	
+			<li><a href="Datoteke/PDF dokumenti/osvrti/Talevski_Logička organizacija web sjedišta.pdf">Moj osvrt na predavanje</a></li>
+			<p>Modeli logičke organizacije Web sjedišta (Web site)
+4 osnovne logičke organizacijske forme Web-a:
+1. Linearna organizacija
+2. Mrežna organizacija
+3. Stablena (hijerarhijska) organizacija
+4. Web organizacija
+Logička linearna organizacija
+Pojam linearnosti u organizaciji Web sjedišta odnosi se na to da se dokumenti tog sjedišta čitaju „kao knjiga“. To je korisno kada se neka procedura prikazuje korak po korak.
+a) Osnovna linearna organizacija
+Pravokutnici predstavljaju web stranice, a strelice između njih poveznice (link). Svaka web stranica ima poveznicu na onu sljedeću te ta sljedeća ima poveznicu na onu prethodnu. Dizajner je ovakvom organizacijom osigurao da korisnik dobiva informacije željenim redoslijedom. Prednosti ove organizacije su preloading (precash). Dok korisnik čita prvu stranicu, može se učitavati sadržaj sljedeće stranice.
+b) Linearna logička organizacija s alternativama
+Prividna interakcija i ne postoji baza podataka. Linearnom logičkom organizacija s alternativama lako je moguće napraviti statistiku. Preloadanje nije toliko jednostavno kao kod osnovne linearne organizacije, no moguće ju je predvidjeti upravo zbog statistike.
+c) Linearna logička organizacija sa opcijama:
+Linearna logička organizacija sa opcijama omogućuje skakanje sa jedne stranice npr. na neku treću stranicu prilikom pregledavanja. Najčešće se koristi ako koristi za preskakanje reklame.
+d) Linearna logička organizacija sa izletima
+Dozvoljena kontrolirana diverzija linearne organizacije. Mogućost odlaska na sporednu stranicu koja objašnjava nama nepoznati pojam.
+Mrežna logička organizacija
+Organizacija koju koriste Web trgovine.
+Mrežna organizacija ima karakteristiku da prezentira horizontalne i vertikalne objekte između različitih dijelova prezentacije.
+Stablena ili hijerarhijska logička organizacija
+Najčešća logička organizacija jer se može lako modificirati. Neke poveznice na dokumente lako je sakriti i eksponirati bez narušavanja sustava.
+a) Usko stablo
+Prezentira mali izbor; sa svake stranice može se kliknuti na dodatne dvije što zahtijeva dosta klikanja kako bismo došli do željene informacije. Ova organizacija je dobra za stranice na kojima se trži posao jer ide u dubinu.
+b) Široko stablo
+Ide se u širinu i zahtjeva manje klikanja. Poveznice su organizirane abecednim redom.
+Web logička organizacija
+Nastala je iz hijerarhijske logičke organizacije, no bitna razlika je to što nam je omogućen povratak s bilo koje sporedne stranice na glavnu stranicu (home) te time imamo bolju preglednost sadržaja. Također, postoje potkategorijske stranice.
+Full mesh (potpuna mreža)
+Sve stranice su međusobno povezane. Ukupan broj linkova je broj stranica pomnožen s brojem stranica minus jedan.
+Miksana forma (miksana hijerarhija)
+Glavnu stranicu (home) predstavlja Iskrivljena linija koja povezuje veće podstranice. Svaka od stranica se može organizirati na svoj način. Ova forma naziva se još Hub Spoke.
+Kategorizacija web sjedišta po broju ulaza
+− Porozna i poluporozna organizacija
+− Čvrsta organizacija
+Porozna organizacija
+Korisnik izvana može ući u bilo koju stranicu. Mogućnost označavanja i direktni ulazak u željenu stranicu bez nekih procedura.
+Prednosti: Korisnik ima svu kontrolu i ima direktan pristup velikom broju URL-ova.
+Mane: Smanjena mogućnost promjene dubokih stranica, smanjena orijentacija i smanjena mogućnost reklamiranja.
+Čvrsta organizacija
+Potrebna registracija korisnika.
+Prednosti: Laka modifikacija i održavanje web sjedišta, prisiljavanje korisnika na ulazak kroz poznate točke (dobro za reklamiranje)
+Mane: Korisniku se oduzima kontrola, smanjena mogućnost pretrage vanjskih pretraživačima.
+Graf logičkih organizacija
+Natalija Talevski</p>
+	</ul>
+	</nav>
+	
+
+</body>
+</html>
